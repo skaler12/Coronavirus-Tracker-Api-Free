@@ -7,23 +7,17 @@ import org.springframework.stereotype.Service;
 import pl.itpoznanski.coronavirus.models.LocationStats;
 
 import javax.annotation.PostConstruct;
-import javax.net.ssl.SSLContext;
-import javax.net.ssl.SSLParameters;
+
 import java.io.IOException;
 import java.io.StringReader;
-import java.net.Authenticator;
-import java.net.CookieHandler;
-import java.net.ProxySelector;
+
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
-import java.time.Duration;
+
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
-import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.Executor;
 
 @Service
 public class CoronaVirusDataService {
