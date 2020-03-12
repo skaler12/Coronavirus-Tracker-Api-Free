@@ -1,1 +1,1 @@
-#Coronavirus Tracker Aplication 
+Coronavirus Tracker Aplication 
